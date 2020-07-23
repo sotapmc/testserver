@@ -5,6 +5,6 @@ echo Downloading vanilla jar from BMCLAPI. (step 2/3)
 if not exist cache mkdir cache
 powershell Invoke-WebRequest https://bmclapi2.bangbang93.com/version/1.16.1/server -OutFile ./cache/mojang_1.16.1.jar
 echo Writing EULA. (step 3/3)
-echo eula=TRUE >eula.txt
+echo eula=TRUE >./eula.txt
 echo Done.
 if not "%1"=="nopause" pause

@@ -1,10 +1,8 @@
 @echo off
-echo Downloading the latest paper build from paper api. (step 1/3)
+echo Downloading the latest paper build from paper api. (step 1/2)
 powershell Invoke-WebRequest https://papermc.io/api/v1/paper/1.16.1/latest/download -OutFile ./paper-latest.jar
-echo Downloading vanilla jar from BMCLAPI. (step 2/3)
+echo Downloading vanilla jar from BMCLAPI. (step 2/2)
 if not exist cache mkdir cache
 powershell Invoke-WebRequest https://bmclapi2.bangbang93.com/version/1.16.1/server -OutFile ./cache/mojang_1.16.1.jar
-echo Writing EULA. (step 3/3)
-echo eula=TRUE >./eula.txt
 echo Done.
 if not "%1"=="nopause" pause

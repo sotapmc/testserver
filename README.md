@@ -24,9 +24,10 @@
 
 - 调用 Powershell 从 `papermc.io` 所提供的 API 下载最新的 Paper 构建，并写入至 `./paper-latest.jar`。
 - 调用 Powershell 从 [BMCLAPI](//bmclapidoc.bangbang93.com) 下载 Mojang 的最新原版服务器核心文件，并写入至 `/cache/mojang_A.B.C.jar`。
-- 在 `/` 生成一个内包含内容 `eula=TRUE` 名为 `eula.txt` 的文件。
 
 下载完毕后，运行 `boot.bat` 即可启动服务器并初始化服务器文件。
+
+**注：**根据相关规定，本脚本不提供自动同意 EULA 的功能。
 
 ## 协议
 

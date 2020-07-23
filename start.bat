@@ -7,4 +7,4 @@ powershell Invoke-WebRequest https://bmclapi2.bangbang93.com/version/1.16.1/serv
 echo Writing EULA. (step 3/3)
 echo eula=TRUE >eula.txt
 echo Done.
-pause
+if not "%1"=="nopause" pause

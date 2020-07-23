@@ -8,4 +8,3 @@ echo Writing EULA. (step 3/3)
 echo eula=TRUE >eula.txt
 echo Done.
 pause
-exit

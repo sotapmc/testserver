@@ -1,0 +1,13 @@
+.console_history
+*.json
+*.yml
+*.jar
+*.properties
+*.conf
+world*
+plugins
+plugins/**
+logs
+logs/**
+cache
+cache/**

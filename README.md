@@ -1,3 +1,5 @@
+# 由于 BMCLAPI 被攻击，默认情况下本脚本无法正常运行。如有需要，请手动替换脚本中的 Vanilla 下载地址，或者直接启动服务器，等候 Spigot 自动下载。
+
 # 🔌 Testserver
 
 ![](https://img.shields.io/badge/poweredby-sotapmc-blue)

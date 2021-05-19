@@ -1,7 +1,7 @@
 # 🔌 Testserver
 
 ![](https://img.shields.io/badge/poweredby-sotapmc-blue)
-![](https://img.shields.io/badge/paper-1.16.1-brightgreen)
+![](https://img.shields.io/badge/paper-1.16.5-brightgreen)
 ![](https://img.shields.io/badge/recommended-11-brown?logo=java)
 
 **Testserver** 是用来快速部署 Bukkit 插件测试服务器的脚手架，大部分情况下属于自用。需要注意的是，Testserver 中包含的大部分内容均来自于互联网，这些内容不代表 sotapmc 的任何观点亦不属于 sotapmc 的著作范围。
